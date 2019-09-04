@@ -5,4 +5,4 @@ source ../rc
 
 FILE=$1
 
-cat $FILE | pcregrep -o $URL_REGEX
+cat $FILE | pcregrep -o $URL_REGEX | sed 's/\.$//g'
