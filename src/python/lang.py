@@ -2,5 +2,6 @@
 
 import sys
 from langdetect import detect
-line = sys.argv[0]
-print(detect(line))
+
+for line in sys.stdin:
+    print(detect(line))
