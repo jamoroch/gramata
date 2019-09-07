@@ -15,3 +15,6 @@ nl resources/data.txt | grep "In:" | awk -F "In:" '{print $(NF)}'
 
 check  begin of page end of page
 cat resources/data.txt | grep "In:" | awk -F "In:" '{print $(NF)}' | egrep -o '[0-9]{1,}-[0-9]{1,}' | awk -F- '{print $2 - $1}'
+
+Find lit reference in text
+cat K2.txt | egrep -o '[A-Z]\w+ [0-9]{4}' | sort | uniq | awk '{print $1 ".*" $2}' > K2.regex
