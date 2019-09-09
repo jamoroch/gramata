@@ -2,20 +2,16 @@
 
 from bs4 import BeautifulSoup
 from docx import Document
-import os, re
+import os
 
-ioc = '../../resources/index_of_contents.html'
+ioc = '../../resources/table_of_contents.html'
+with open(ioc) as fp:
+    doc = BeautifulSoup(fp, features="lxml")
+
 out_file = '../../resources/inhaltsverzeichnis.docx'
 if os.path.isfile(out_file) :
   os.remove(out_file);
 word_document = Document()
-
-
-with open(ioc) as fp:
-    doc = BeautifulSoup(fp, features="lxml")
-
-
-
 for node in doc.body.children:
     if(node.name):
         if(node.string):
@@ -23,7 +19,7 @@ for node in doc.body.children:
           print(entry)
           word_document.add_paragraph(entry, style='List Number')
         else:
-          print(node.text)
-          word_document.add_paragraph(node.text, style='List Number')
-
+          entry = node.contents[0].strip()
+          print(entry)
+          word_document.add_paragraph(entry, style='List Number')
 word_document.save(out_file)
