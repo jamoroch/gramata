@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+
+from bs4 import BeautifulSoup
+from docx import Document
+import os, re
+
+ioc = '../../resources/index_of_contents.html'
+out_file = '../../resources/inhaltsverzeichnis.docx'
+if os.path.isfile(out_file) :
+  os.remove(out_file);
+word_document = Document()
+
+
+with open(ioc) as fp:
+    doc = BeautifulSoup(fp, features="lxml")
+
+
+
+for node in doc.body.children:
+    if(node.name):
+        if(node.string):
+          entry = node.string.strip()
+          print(entry)
+          word_document.add_paragraph(entry, style='List Number')
+        else:
+          print(node.text)
+          word_document.add_paragraph(node.text, style='List Number')
+
+word_document.save(out_file)
