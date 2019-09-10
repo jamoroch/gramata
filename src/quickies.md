@@ -17,7 +17,11 @@ check  begin of page end of page
 cat resources/data.txt | grep "In:" | awk -F "In:" '{print $(NF)}' | egrep -o '[0-9]{1,}-[0-9]{1,}' | awk -F- '{print $2 - $1}'
 
 Find lit reference in text
-cat K2.txt | egrep -o '[A-Z]\w+ [0-9]{4}' | sort | uniq | awk '{print $1 ".*" $2}' > K2.regex
+cat K2.txt | egrep -o '[A-Z]\w+ [0-9]{4}[a-z]*' | sort | uniq | awk '{print $1 ".*" $2}' |  sed -e 's/\([a-z]$\)/\1\?/g' > ../refs/K2.regex
 
-Clean results bibliography search
-cat resources/search_bib.out | awk -F'*' '{print $1, $2}' | sed -e 's/\.//' > resources/search_bib.clean.out
+
+
+for i in $(seq 2 11); do cat K$i.txt | egrep -o '[A-Z]\w+ [0-9]{4}[a-z]*' | sort | uniq | awk '{print $1 ".*" $2}' |  sed -e 's/\([a-z]$\)/\1\?/g' -e 's/\([0-9]$\)/\1)/g' > ../refs/K$i.regex; done
+
+
+cat K11.txt | egrep -o '[A-Z]\w+ [0-9]{4}[a-z]*' | sort | uniq | awk '{print $1 ".*" $2}' |  sed -e 's/\([a-z]$\)/\1\?/g'  -e 's/\([0-9]$\)/\1)/g' > ../refs/K11.regex
