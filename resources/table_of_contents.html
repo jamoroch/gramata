@@ -1,17 +1,39 @@
  <html>
+     <head>
+         <style>
+             @import url('file:///System/Library/Fonts/HelveticaNeue.ttc?family=helvetica-neue');
+
+             *{font-family: helvetica, serif}
+             ol {
+  counter-reset: section;                /* Creates a new instance of the
+                                            section counter with each ol
+                                            element */
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: section;            /* Increments only this instance
+                                            of the section counter */
+  content: counters(section, ".") " ";   /* Combines the values of all instances
+                                            of the section counter, separated
+                                            by a period */
+}
+         </style>
+     </head>
 <body>
-<h3>Abbildungsverzeichnis</h3>
-<h3>Tabellenverzeichnis</h3>
-<h3>Abkürzungsverzeichnis</h3>
-<h2>Danksagung</h2>
-<h2>
+    <ol>
+<li>Abbildungsverzeichnis</li>
+<li>Tabellenverzeichnis</li>
+<li>Abkürzungsverzeichnis</li>
+<li>Danksagung</li>
+<li>
     Einleitung
     <ol>
         <li>Untersuchungsgegenstand und Forschungsinteresse</li>
         <li>Aufbau der Arbeit</li>
     </ol>
-</h2>
-<h2>
+</li>
+<li>
         Sprachliche Anforderungen in Pflegeausbildung und -beruf
         <ol>
             <li>Die Pflegeausbildung im Kontext von Migration und Deutsch als Zweitsprache</li>
@@ -27,8 +49,8 @@
             <li>Kommunikation als Lerngegenstand in der Ausbildung</li>
             <li>Fazit: Berufsbezogene bildungssprachliche Praktiken als Untersuchungsfokus</li>
         </ol>
-</h2>
-<h2>
+</li>
+<li>
         Prüfungsgespräche als Forschungsgegenstand und aus angewandter Perspektive
         <ol>
             <li>Quantitative Studien</li>
@@ -36,8 +58,8 @@
             <li>Gesprächsanalytische Untersuchungen</li>
             <li>Fazit: Desiderata einer (gesprächsanalytischen) Prüfungsforschung</li>
         </ol>
-</h2>
-<h2>
+</li>
+<li>
         Methodisches Vorgehen und Datengrundlage
         <ol>
             <li>Untersuchungsziele und Design der Studie</li>
@@ -62,8 +84,8 @@
                 </ol>
             </li>
         </ol>
-</h2>
-<h2>
+</li>
+<li>
         Gesprächsstruktur und sequentielle Verläufe
         <ol>
             <li>Der Gesprächsverlauf im Überblick</li>
@@ -82,16 +104,16 @@
             </li>
             <li>Fazit: zur Musterhaftigkeit des Prüfungsverlaufs</li>
         </ol>
-</h2>
-<h2>
+</li>
+<li>
         Sequenzübergreifende Unterschiede zwischen den Kandidaten
         <ol>
             <li>Globalstrukturelle Planung und Explizitheit</li>
             <li>Thematische Orientierung</li>
             <li>Bezugnahme auf den Fall</li>
         </ol>
-</h2>
-<h2>
+</li>
+<li>
         Prüfungsförmiges Erklären und Argumentieren
     <ol>
         <li>Erklären
@@ -120,16 +142,16 @@
         </li>
         <li>Fazit: Die rekonstruierten Praktiken des Erklärens und Argumentierens im Lichte der Forschung</li>
     </ol>
-</h2>
-<h2>Interaktionale Varianzen
+</li>
+<li>Interaktionale Varianzen
         <ol>
             <li>Schweigen</li>
             <li>Prüferinterventionen während des Präsentierens der Ergebnisse</li>
             <li>Prüfergesteuerte Themenbearbeitung</li>
             <li>Prüferaktivitäten bei Kandidaten mit geringer Sprachkompetenz</li>
         </ol>
-</h2>
-<h2> Praktiken der Positionierung
+</li>
+<li> Praktiken der Positionierung
     <ol>
         <li>Epistemische Positionierung
             <ol>
@@ -147,8 +169,8 @@
         <li>Positionierung in der beruflichen Rolle</li>
         <li>Zusammenspiel von epistemischer und beruflicher Positionierung</li>
     </ol>
-</h2>
-<h2>Sprachliche Normen der Prüfungsinteraktion
+</li>
+<li>Sprachliche Normen der Prüfungsinteraktion
         <ol>
             <li>Planen und Strukturieren der Ergebnispräsentation</li>
             <li>Interagieren mit den Prüfenden</li>
@@ -157,13 +179,14 @@
             <li>Überzeugen als angehende Pflegekraft</li>
             <li>Fazit: Nachweisen beruflicher Eignung als Prüfungsziel</li>
         </ol>
-</h2>
-<h2>Resümee und Ausblick
+</li>
+<li>Resümee und Ausblick
         <ol>
             <li>Zusammenschau der Ergebnisse</li>
             <li>Reflexion der Erträge und Implikationen für das Fach Deutsch als Zweitsprache</li>
         </ol>
-</h2>
-<h2>Literatur</h2>
+</li>
+<li>Literatur</li>
+</ol>
 </body>
 </html>
