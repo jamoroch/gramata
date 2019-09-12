@@ -14,7 +14,7 @@ for rf in $(ls $REFS_DIR)
     LINE=''
     while IFS= read -r regex; do
       if [[ ! $(egrep -s "$regex" $BIBLIOGRAPHY)  ]]; then
-        LINE+=$(echo $regex | sed -e 's/\*//g' -e 's/\.//g' -e 's/\?//g' -e 's/)//g')
+        LINE+=$( echo $regex | sed -e 's/^\^//g' -e 's/\*//g' -e 's/\.//g' -e 's/\?//g' -e 's/)//g' -e 's/\\(//g' )
         LINE+=' '
       fi
     done < $REFS_DIR/$rf
