@@ -2,9 +2,8 @@
 set -e -u
 cd "$( dirname "S{BASH_SOURCE[0]}" )"
 
-
 REFS_DIR='../../resources/refs'
-
+BLACKLIST='../../resources/search_references_blacklist.txt'
 BIBLIOGRAPHY='../../data.txt'
 
 for rf in $(ls $REFS_DIR)
@@ -13,9 +12,12 @@ for rf in $(ls $REFS_DIR)
     echo $PREFIX
     LINE=''
     while IFS= read -r regex; do
-      if [[ ! $(egrep -s "$regex" $BIBLIOGRAPHY)  ]]; then
-        LINE+=$( echo $regex | sed -e 's/^\^//g' -e 's/\*//g' -e 's/\.//g' -e 's/\?//g' -e 's/)//g' -e 's/\\(//g' )
-        LINE+=' '
+      if [[ ! $(egrep -s "$regex" $BIBLIOGRAPHY) ]]; then
+        ITEM=$( echo $regex | sed -e 's/^\^//g' -e 's/\*//g' -e 's/\.//g' -e 's/\?//g' -e 's/)//g' -e 's/\\(//g' )
+        if [[ ! $(egrep -s $ITEM $BLACKLIST) ]]; then
+          LINE+=$ITEM
+          LINE+=' '
+        fi
       fi
     done < $REFS_DIR/$rf
     echo $LINE
