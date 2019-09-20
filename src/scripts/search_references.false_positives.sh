@@ -8,7 +8,7 @@ BIBLIOGRAPHY='../../data.txt'
 if [[ ! -f "$INPUT" ]]; then
   echo "$INPUT not a file"
 fi
-set -x
+
 while IFS= read -r ; do
   LASTNAME=$(echo $REPLY | cut -d' ' -f1)
   YEAR=$(echo $REPLY | cut -d' ' -f2)
@@ -16,4 +16,3 @@ while IFS= read -r ; do
   echo $REPLY | tee -a false_positive.txt
   fi
 done < $INPUT
-set +x
