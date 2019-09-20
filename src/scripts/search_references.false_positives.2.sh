@@ -5,14 +5,27 @@ cd "$( dirname "S{BASH_SOURCE[0]}" )"
 REFERENCES='../../resources/references.raw.txt'
 BLACKLIST='../../resources/references.blacklist.txt'
 BIBLIOGRAPHY='../../resources/lit_id.txt'
+
+if [[ ! -f "$REFERENCES" ]]; then
+  echo "$REFERENCES not a file"
+  exit 1;
+fi
+
+if [[ ! -f "$BLACKLIST" ]]; then
+  echo "$BLACKLIST not a file"
+  exit 1;
+fi
+
+if [[ ! -f "$BIBLIOGRAPHY" ]]; then
+  echo "$BIBLIOGRAPHY not a file"
+  exit 1;
+fi
+
 while IFS= read -r  ; do
-  [[ $(egrep -s "K[0-9]+"  $REFERENCES) ]] && echo $REPLY
-  LASTNAME=$(echo $REPLY | cut -d' ' -f1)
-  YEAR=$(echo $REPLY | cut -d' ' -f2)
-  if [[ $(cat "$BIBLIOGRAPHY" | egrep -s $LASTNAME | egrep -s $YEAR) ]]; then
-    ITEM=$LASTNAME$YEAR
-    if [[ ! $(egrep -s $LASTNAME $BLACKLIST | egrep -s $YEAR) ]]; then
-      echo $REPLY 
-      fi
+  LASTNAME=$(echo $REPLY | awk '{print $1}')
+  YEAR=$(echo $REPLY | awk '{print $2}')
+  ITEM=$LASTNAME$YEAR
+  if [[ ( $(cat "$BIBLIOGRAPHY" | egrep -s $LASTNAME | egrep -s $YEAR) ) || (  $(cat $BLACKLIST | egrep -s $ITEM) ) ]]; then
+    echo $REPLY
   fi
 done < $REFERENCES

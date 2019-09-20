@@ -7,6 +7,7 @@ BIBLIOGRAPHY='../../data.txt'
 
 if [[ ! -f "$INPUT" ]]; then
   echo "$INPUT not a file"
+  exit 1;
 fi
 
 while IFS= read -r ; do

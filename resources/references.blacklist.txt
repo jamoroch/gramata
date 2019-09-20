@@ -28,6 +28,7 @@ Klein2011
 Mikrozensus2017
 Mrotzek2004
 November2013
+Oktober2018
 Oppenheim1948
 Praxis1995
 Quasthoff1980
@@ -38,6 +39,7 @@ Sacks1992
 Schuljahr2017
 Schwitalla2006
 September2013
+September2017
 September2019
 Sozialforschung2017
 Thürmann2013
