@@ -17,7 +17,6 @@ for i in $(seq 2 11); do
     exit 1; 
   fi
   echo ${FILE%.txt}
-  #cat K$i.txt | egrep -o '[A-Z]\w+ \(?[0-9]{4}[a-z]*' | sort | uniq | awk '{print $1 ".*" $2}' |  sed -e 's/\([a-z]$\)/\1\?/g' -e 's/\([0-9]$\)/\1)/g' -e 's/^/\^/' -e 's/(/\\(/' > $OUTPUT_DIR/${FILE/%txt/regex}
   cat $FILE | egrep -o '[A-Z]\w+ \(?[0-9]{4}[a-z]*' | sed 's/(//g' | sort | uniq
   done
 
