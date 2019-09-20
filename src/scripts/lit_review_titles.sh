@@ -4,7 +4,7 @@ cd "$( dirname "S{BASH_SOURCE[0]}" )"
 
 LIT_FILE='../../data.txt'
 
-OUTFILE='../../resources/lit_ids.txt'
+OUTFILE='../../resources/lit_review_sample.txt'
 :>$OUTFILE
 
 NUM_LIT_ENTRIES=$(cat $LIT_FILE | wc -l)
