@@ -25,7 +25,7 @@ while IFS= read -r  ; do
   LASTNAME=$(echo $REPLY | awk '{print $1}')
   YEAR=$(echo $REPLY | awk '{print $2}')
   ITEM=$LASTNAME$YEAR
-  if [[ ( $(cat "$BIBLIOGRAPHY" | egrep -s $LASTNAME | egrep -s $YEAR) ) || (  $(cat $BLACKLIST | egrep -s $ITEM) ) ]]; then
+  if [[ ( $(cat "$BIBLIOGRAPHY" | egrep -s $LASTNAME | egrep -s "$YEAR\b") ) || (  $(cat $BLACKLIST | egrep -s $ITEM) ) ]]; then
     echo $REPLY
   fi
 done < $REFERENCES
