@@ -15,7 +15,7 @@ fi
 
 for FILE in $(ls -1 $NAMES_DIR);
   do
-  echo $FILE
-  cat $FILE | xargs
+    echo $FILE
+    cat $FILE | xargs
     ls -1 $ORIGINAL_DIR/K* | xargs -I {} grep --only-match --color='always' -f $NAMES_DIR/$FILE {}
-  done
+done
