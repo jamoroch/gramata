@@ -20,5 +20,6 @@ LEN=$(echo `expr "$FOO" : '[A-Z][a-z]*'`)
 LASTNAME=$(echo ${FOO:0:LEN})
 YEAR=$(echo ${FOO:LEN})
 
-cat resources/references.raw.txt | sed -n '/K11/,/$/p' | grep --word-regexp -file resources/references.true_positives.txt
+comm -23 references.sorted.txt references.false_positives.txt  | egrep -v 'K[0-9]+' > references.true_positives.txt
 
+cat resources/references.raw.txt | sed -n '/K11/,/$/p' | grep --word-regexp -file resources/references.true_positives.txt
