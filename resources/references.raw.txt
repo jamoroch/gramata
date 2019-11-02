@@ -1,8 +1,18 @@
+K1
+Amorocho 2017
+Dembski 1978
+Fisch 1970
+Gadow 2019
+Meer 2000
+Meer 2011
+Mehlhorn 2005
+Piehl 1973
+Reineke 2016
+Steuble 1986
 K2
-Abel Glazinieks 2017
 Abel Glaznieks 2017
 Afentakis Maier 2013
-Ahrenholz 2010
+Ahrenholz 2010a
 Ahrenholz 2010b
 Alt 2015
 AltPflAPrV 2002
@@ -39,6 +49,7 @@ Bremen 2005
 Bryant Pucciarelli 2018
 Brünner 1997
 Brünner 2005
+Brünner Fiehler 1997
 Bundesamt 2018a
 Bundesamt 2018b
 Bundesgesetze 2003
@@ -52,6 +63,7 @@ Chlosta Schäfer 2010
 Cramer 2018
 Cummins 2000
 Cummins 2008
+Cummins 2008, 2000
 Cummins 2013
 Darmann 2000a
 Darmann 2000b
@@ -67,7 +79,7 @@ Efing 2015
 Efing 2015a
 Efing 2018
 Efing Kiefer 2018
-Ehlich 1999
+Ehlich 1999, 1993
 Eibinger 2013
 Eilert Ebke 2014
 Ende 2016
@@ -75,17 +87,18 @@ Energie 2018
 Ernst 2017
 Feilke 2012
 Feilke 2013
+Feilke 2013, 2012
 Feilke 2016
 Fiehler 1997
 Fiehler 2014
-Fiehler Brünner 1997
+Fiehler 2014, 2009
 Finck 2006
 Fischer 2017
 Fleuchaus 2004
 Fogasy 2014
 Fricke 2012
 Gadow 2016
-Gadow 2019
+Gadow 2019, 2016
 Gantefort Roth 2010
 Geißner 1997
 Gogolin 2009
@@ -108,6 +121,7 @@ Hanna 2002
 Hartung 2016
 Hausendorf Quasthoff 1996
 Hee 2018
+Hee 2018, 2017a
 Heller 2012
 Heller 2015
 Heller Morek 2015
@@ -128,7 +142,7 @@ Kimmelmann Berg 2013
 Kimmelmann Seyfarth 2017
 Koch 2016
 Koch Oesterreicher 1986
-Koch Oesterreicher 1994
+Koch Oesterreicher 1994, 1986
 Kolb 2002
 KrPflG 2004
 Krah 2017
@@ -140,7 +154,7 @@ Lammerskitten 2016
 Lange 2012
 Lauer 2016
 Laßmann 2015
-Leisen 2005
+Leisen 2005, 1998
 Leisen Berge 2005
 Linell 1982
 Linnemann 2007
@@ -168,7 +182,7 @@ Nodari Schiesser 2006
 Nünning 2011
 Obermayer 2013
 Oberzaucher 2014
-Oelke 2003
+Oelke 2003, 1991a
 Ohlhus 2017
 Ohm 2016
 Oktober 2018
@@ -177,11 +191,12 @@ Ott 2007
 Papp 2018
 Pohl 2016
 Pohl 2017
+Pohl 2017, 2016
 Posenau 2014
 Prediger 2013
-Preece 2015
+Preece 2015, 2009
 Pucciarelli 2015
-Pucciarelli 2016
+Pucciarelli 2016, 2015
 Pätzold 2003
 Quasthoff 2003
 Quasthoff 2009
@@ -229,26 +244,28 @@ Walch 2009
 Wald 1978
 Walther 1997
 Walther 2001
+Walther 2001, 1997
 Weber 2009
 Weber 2009a
 Weber 2018
 Webersik 2015
 Webersik 2015a
-Weinhold 1997
 Weinhold 1997a
 Weinhold 1997b
 Weinhold 2002
+Weinhold 2002, 1997b
 Wippermann Flaig 2009
 Zielke 1989
 Zimmer 2009
 K3
 Adelswärd 1989
+Adelswärd 1989, 1988
 Amorocho 2017
 Amorocho 2018a
+Amorocho 2018a, 2018b, 2017, 2015
 Amorocho 2018b
 Bauer 2001
 Beckmann 2012
-Beckmann 2013
 Bildungsinstitut 2007
 Birkel 1978
 Birkel Pritz 1980
@@ -260,7 +277,6 @@ Cirko 2016
 Davis Karunathilake 2005
 Dedering Naumann 1986
 Dembski 1978
-Dembsky 1978
 Deppermann 2015
 Deppermann 2018
 Drew Heritage 1992
@@ -270,6 +286,7 @@ Engemann 1983
 Fiehler 2001
 Fierbinţeanu 2008
 Fierbinţeanu 2014
+Fierbinţeanu 2014, 2008
 Fisch 1970
 Foote 2016
 Goldberg Young 2015
@@ -290,36 +307,37 @@ Kaufhold 2005
 Kern 2000
 Klein 2018
 Kvale 1972
-Lenz Bashok 2008
-Lenz Bashook 2008
-Lenz Boshok 2008
 Lepschy 1995
 Linell Luckmann 1991
 Lipovsky 2008
+Lunz Bashook 2008
 Maynard Marlaire 2016
 Meer 1996
 Meer 1998
 Meer 2000
 Meer 2011
+Meer 2011, 2000, 1998
 Mehan 1979
 Mehlhorn 2005
 Meister 2015
+Montanari 2016
 Morin 1991
 Mrotzek 2009
 Mrotzek Meier 2002
 Mrotzek Vogt 2009
 Mundwiler 2017
-Munsberg 1993
+Munsberg 1993, 1989
 Munsberg 1994
+Munsberg 1994, 1993, 1989
 Nolda 1990
 Pache 2004
-Paulsen Wolf 1983
-Petersen 2012
+Paulsen Wolf 1984
 Petersen 2016
 Pick 2011
 Pick 2015
 Rahn 2011
 Rahn 2014
+Rahn 2014, 2011
 Reetz 2005
 Reetz Hewlett 2008
 Reineke 2016
@@ -340,11 +358,13 @@ Silverman Jones 1976
 Stary 2001
 Steuble 1983
 Steuble 1986
+Steuble 1986, 1983
 Techtmeier 1997
 Ulrich 2016
 Wegner 2016
 Wermbter 2012
 Wermbter 2013
+Wermbter 2013, 2012
 Westhoff Hagemeister 2014
 Wiesmann 1997
 Wildt Redecker 2008
@@ -353,6 +373,7 @@ K4
 ACTFL 2012a
 ACTFL 2012b
 Aguado 2014
+Alt 2015
 Amorocho 2015
 Amorocho 2017
 Amorocho 2018a
@@ -372,13 +393,10 @@ Denzin 1978
 Deppermann 2008
 Dresing Pehl 2018
 Dürscheid 2005
-Feilke Linke 2016
-Fiehler Kindt 2002
 Flick 2010
 Flick 2011
-Gaparro 1987
+Gardner 2018
 Gasparro 1987
-Gasparro 2003
 Goffman 1981
 Gumperz 1982
 Gülich Mondada 2008
@@ -388,30 +406,34 @@ Günthner Knoblauch 1994
 Günthner König 2016
 Hausendorf Quasthoff 1996
 Hepburn Bolden 2013
-Heritage 1994
+Heritage 1984a
 Hutchby Wooffitt 2008
+Imo Lanwer 2019
+Isbell Winke 2019
 Johnson 2001
 Juni 2013
 Kuhlen Selting 2018
 Labov 1972
 Luckmann 1986
+Luckmann 1992
 Luckmann 1995
+Luckmann 1995, 1986
 Malone 2003
 Meer 1998
+Meer Pick 2019
 Mey Mruck 2010
 Mondada 2013
 Morek 2012
 Mrotzek Brünner 1992
 Mrotzek Meier 2002
 November 2013
-Preece 2015
+Preece 2015, 2009
 Pucciarelli 2015
 Riemer 2014
 Ross 2007
 Sacks 1984
 Schegloff 2000
 Schwitalla 2006a
-Schütte Winterscheid 2015
 Selting 2016
 September 2013
 Settelmeyer Widera 2015
@@ -430,69 +452,65 @@ Swender 2003
 Thurmair 2001
 Tschirner 2005
 Tschirner 2013
+Tschirner 2018
 Tschirner Bärenfänger 2012
-Weber 2018
+Weber 2019
 Wegner 2016
 Weidner 2017
 K5
-Abraham Saxalber 2012
+Altenpflege 2014
 Altmann 1993
 Amorocho 2015
 Amorocho 2018a
 Augst 2010
 Becker 2012
+Benner 2012
 Bergmann 2014
 Berkemeier 2010
 Berkemeier Pfennig 2009
-Brenner 2012
 Brinker 2010
 Brinker Sager 2010
 Button 1992
 Bührig 1996
-Darmann 2000
 Dedering Naumann 1986
 Dembski 1978
 Deppermann 2015
-Dittmar 2000
 Ehlich Rehbein 1986
+Fandrych 2014
 Fandrych Thurmair 2011
-Feilke 2013
 Fiehler 2009
 Fierbinţeanu 2008
 Fierbinţeanu 2014
-Finck 2012
 Fogasy 2001
 Fogasy 2006
 Fogasy 2010
 Franke 1990
-Gruschka 2008
+Grießhaber 1987
+Gruschka 2008, 2007
 Grzella Plum 2018
 Guckelsberger 2005
 Guckelsberger 2006
+Guckelsberger 2006, 2005
 Gätje 2014a
 Günthner Knoblauch 2007
 Harren 2015
 Hausendorf Quasthoff 1996
 Hee 2018
+Hee 2018, 2017a
 Heller 2012
 Henne Rehbock 2001
-Hoffmann Strecker 1997
 Holly 1979
 Imo 2009
 Kleinschmidt 2015
 Kügelgen 2009
 Labov Waletzky 1967
 Meer 1998
-Meer 2001
+Meer 2011
 Mehan 1979
 Morek 2012
 Mrotzek Vogt 2009
 Munsberg 1994
-Nussbaumer  Portmann 1996
-Nussbaumer Portmann 1996
 Ohlhus 2014
-Pecorari 2008
-Pomerantz 1987
 Quasthoff 1980
 Quasthoff 1990
 Rahn 2010
@@ -515,33 +533,46 @@ Sinclair Coulthard 1977
 Slavcheva Meißner 2014
 Spiegel 2006a
 Steets 2003
-Steuble 1986
+Steuble 1986, 1983
 Streeck 1979
 Techtmeier 1997
 Trautmann 2004
 Weatherall 2011
 Wermbter 2013
+Wermbter 2013, 2012
 Wiesmann 1997
-Wunderlich 1975
 Wunderlich 1976
 K6
 Amorocho 2015
 Amorocho 2017
+Ehmer 2011
+Fandrych 2006
+Fandrych 2014
+Feilke 2012
+Goffman 1980
 Hausendorf 2000
 Kern 2000
+Koch Oesterreicher 1986
+Meißner 2014, 2009
 Niederhaus 2011
+Ortner 2009
+Pache 2004
+Pohl 2016
 Polenz 1981
 Praxis 1995
-Weingarten 1996
+Selting Hinnenkamp 1989
+Weingarten 1994
 Wermbter 2013
 K7
 Ahrenholz 1998
 Alber Neumeister 2009
 Amorocho 2017
 Amorocho 2018a
+Amorocho 2018a, 2017
 Antaki 1994
 Arendt 2015
 Arendt 2017
+Arendt 2017, 2016
 Arendt 2019
 Auer 2000a
 Bachmann 2014
@@ -557,42 +588,47 @@ Bücker 2004
 Bühdorn 2011
 Comenius 1957
 Comenius 1960
+Cramer 2018
+Delius 1985
 Deppermann 2000
 Deppermann 2006
 Dittmar 2000
 Duś 2008
 Eemeren Grootendorst 1992
+Efing Häußler 2011
 Ehlich 1981
 Ehlich 1983
 Ehlich 1993
 Ehlich 2009a
 Ehlich 2014
-Ehlich Rehbein 1975
 Ehlich Rehbein 1986
+Ehlich Rehbein 1986, 1975
 Ehmer 2011
 Ernst 2017
 Fandrych Thurmair 2011
 Fauconnier 1984
 Feilke 2005
 Feilke 2012
+Feilke 2013
+Fischer 2017
 Fogasy 2006
 Fogasy Fleischmann 1993
 Gadow 2016
 Gadow 2019
 Goffman 1981
-Gohl 2002
-Gohl 2005
+Gogolin Duarte 2016
+Gogolin Lange 2010
 Gohl 2006
+Gohl 2006, 2000
 Graefen 2000
 Graefen 2003
-Grundler 2006
+Grossmann 2011
 Grundler 2011
 Grundler 2015
 Grundler 2017
 Grundler Rezat 2016
 Grundler Vogt 2009
 Habermas 1987
-Harren 2009
 Harren 2009a
 Harren 2009b
 Harren 2009c
@@ -607,10 +643,11 @@ Hempel Oppenheim 1948
 Hoene 2006
 Hofer Pilowsky 1992
 Hoffmann 1998
-Hoffmann Strecker 1997
 Hohenstein 2006
 Hohenstein 2009
+Hohenstein 2009, 2006
 Holly 1979
+Hövelbrinks 2014
 Iljes 2019
 Illjes 2004
 Illjes 2018
@@ -625,9 +662,9 @@ Kern 2009
 Kern Quasthoff 2003
 Kiel 1999
 Kiel 2009
+Kimmelmann Seyfarth 2017
 Klein 1979
 Klein 1980
-Klein 1981
 Klein 1987
 Klein 2001
 Klein 2009
@@ -635,6 +672,7 @@ Klein 2011
 Klein 2017
 Klie 2013
 Kniffka Roelcke 2016
+Koch Oesterreicher 1994, 1986
 Konerding 2002
 Kopperschmidt 2006
 Kotthoff 1989
@@ -645,15 +683,20 @@ Kotthoff 2015b
 Krah 2017
 Krelle 2011
 Krelle 2014
-Krelle 2015
+Krelle 2015, 2014
 Kreuz 2019
+Kulgemeyer Tomczyszyn 2016
+Lammerskitten 2016
 Maas 2008
 Maxin 2018
 Mayes 2005
 Meer 1998
 Morek 2012
 Morek 2015
+Morek 2015a
 Morek 2017
+Morek 2017, 2012
+Morek 2017, 2015a
 Mrotzek 2004
 Mrotzek Vogt 2009
 Mundwiler 2017
@@ -662,8 +705,8 @@ Neumeister 2011
 Neumeister Vogt 2009
 Niederhaus 2011
 Oloff 2016
+Ortner 2009
 Ossner 2007
-Pache 2004
 Pavlidou 1978
 Pohl 2014
 Quasthoff 2009
@@ -672,21 +715,21 @@ Quasthoff Kern 2003
 Quasthoff Kern 2007
 Quasthoff Krah 2012
 Rahn 2014
+Redder 1984
 Redder 1990
-Rehbein 1975
 Rehbein 1982
 Rehbein 1982b
 Rehbein 1995
+Riebling 2013
 Roelcke 2005
 Roelcke 2013
 Sacks 1992
 Scheffler 1999
 Schurz 1990
+Schwab 2009
 Schwarze 2010
 Schwarze 2017
 Searle 1983
-Selting Hinnenkamp 1989
-Spiegel 2006a
 Spiegel 2006b
 Spiegel 2006c
 Spiegel 2011
@@ -694,29 +737,29 @@ Spreckels 2009
 Spreckels 2009a
 Spreckels 2009b
 Spreckels 2009c
-Stegmüller 1983
+Spreckels Trojahn 2009
+Stegmüller 1969
 Steuble 1983
 Stude 2003
 Stukenbrock 2009
 Tajmel 2017
-Thielmann 2009
 Thieme 2009
 Thurmair 1989
 Toulmin 1996
 Toulmin 2003
 Trautmann 2004
 Trautmann 2006
+Trautmann 2006, 2004
 Tseromis 2011
 Valerius 2005
 Vogt 2002
 Vogt 2006
-Vogt 2007
 Vogt 2009
+Vollmer Thürmann 2013, 2010
 Völzing 1979
 Wagner Wiese 1989
 Wald 1978
 Weber 1982
-Weber 2009
 Weber 2019
 Wegner 2016
 Weidner 2017
@@ -725,19 +768,26 @@ Weinrich 1993
 Wermbter 2013
 Wohlrapp 2009
 K8
+Adelswärd 1989
 Amorocho 2015
 Bergmann 1982
 Birkner 2001
-Bruner Ross 1976
+Breidenstein 2006
 Bührig 1996
 Cirko 2016
+Dedering Naumann 1986
 Deppermann Helmer 2013
 Deppermann Schmidt 2008
 Deppermann Schmitt 2008
 Ehlich 1986
 Ehlich Rehbein 1986
+Ehmer 2011
 Fiehler 1998
+Fierbinţeanu 2008
+Fogasy 2006
 Franke 1990
+Frigge 2011
+Garcia 2014
 Gass 2008
 Gass Varonis 1991
 Goffman 1976
@@ -746,48 +796,62 @@ Harren 2015
 Hausendorf Quasthoff 1996
 Hee 2012
 Heinemann 1999
+Hirschberg 2016
 Hoffmann Nothdurft 1989
 Hohenstein 2006
+Holy 1979
+Hutchby Wooffitt 2008
+Hövelbrinks 2014
 Jefferson 1991
+Johnson 2001
+Kaufhold 2005
 Kiel 1999
-Kotthoff 2015
+Kotthoff 2015a
 Krah 2017
-Kurzon 1999
+Kurzon 1998
 Liedke 1998
+Maynard Marlaire 2016
+Meer 1998
 Mehan 1979
-Meißner 2009
 Morek 2012
 Morita 2001
 Müller 2012
-Nothdurft 1989
+Nolda 1990
 Nübling 2004
 Pick 2015
-Roth 1984
+Qian 2016
+Rahn 2011
+Rahn 2014
+Roth 1944
 Roth 1994
 Roth 1998
-Schegloff Jefferson 1974
 Schegloff Sacks 1973
 Schmidt 1983
 Schwitalla 1976
 Schwitalla 2006
+Siltonen 2009
+Steuble 1983
+Steuble 1986
 Ulsamer 2002
+Wermbter 2012
+Wermbter 2013
+Wiesmann 1997
 Willkop 1988
 Young Faux 2011
 K9
 Amorocho 2017
+Amorocho 2018a
 Beckmann 2012
 Benner 2012
 Bois 2007
 Bolden 2009
 Boyd Heritage 2006
-Breidenstein 2006
 Brünner 1994
-Darmann 2000
-Davies Harré 1999
+Darmann 2000a
+Davies Harré 2007
 Deppermann 2013
 Deppermann 2015
 Deppermann Helmer 2013
-Deppermann Reineke 2016
 Doehler 2016
 Drew Heritage 1992
 Ehlich 1986
@@ -795,19 +859,15 @@ Ehlich Rehbein 1986
 Ehmer 2011
 Fiehler 2009
 Finck 2006
-Finck 2012
 Fogasy 2002
 Fogasy Spiegel 2002
 Furthmann 2006
 Gay 2014
 Goffman 1959
-Goffman 1974
-Goffman 1979
 Goffman 1981
-Goffmann 1981
 Goffmans 1959
+Gretsch 2000
 Grice 1975
-Groß Harren 2015
 Groß Harren 2016
 Günthner 2000
 Günthner 2002
@@ -820,89 +880,92 @@ Helmer 2011
 Helmer Deppermann 2013
 Helmer Deppermann 2017
 Heritage 1998
-Heritage 2012
 Heritage 2012a
-Heritage 2013
-Heritage 2016
-Hoene Deppermann 2004
-Hoene Deppermann 2200
-Hoffmann Strecker 1997
+Heritage 2013b, 2012b
+Heritage 2016, 1984b
+Hoene Deppermann 2004a
+Hoene Deppermann 2004b
+Holly 1979
 Imo 2007
 Imo 2009
+Kaufhold 2005
 Keevallik 2011
-Keevallik 2016
+Keevallik 2016, 2011
 Kern 2000
-Kern 2003
-Kevallik 2011
 Kitzinger Wilkinson 2003
 Klemm 2016
 Konerding 2004
 Konzett 2012
+Konzett 2012, 2010
 Kook 2015
-Koshik 2002
+Koshik 2002a
+Koshik 2002b
 Koshik 2010
+Koshik 2010, 2005, 2002a
 Kranz 1995
 Kärkkäinen 2003
 Kärkkäinen 2006
+König 2017
 Landgrebe 2012
+Langenhove 1999
 Langenhove Harré 1999
 Malone 1997
 Margutti 2010
 Meer 1998
 Meer 2000
-Mondada  Steensig 2011
 Mondada 2011
-Mondada Steensig 2011
 Morek 2012
-Morek 2016
+Morek 2016b
 Mundwiler 2017
+Munsberg 1994
 Netz 2016
+Nolda 1990
 Oloff 2016
 Oloff 2017
-Perkins Pagliuca 1994
 Pomerantz 1980
 Pomerantz 1987
+Rahn 2014
 Reineke 2016
-Reineke Deppermann 2016
-Reis 1990
 Reis 1991
 Roth 2003
 Sacher 2012
 Sacks 1992
-Sacks 1995
-Schegloff 2007
 Schegloff 2007a
 Schegloff 2007b
 Schwabe 2006
-Schwabe 2015
-Schwittala 2006
-Sert 2016
+Schwitalla 2006b
 Silverman 1987
 Slavcheva Meißner 2014
+Steuble 1986
 Stivers 2008
 Thurmair 1989
-Villanueva 2007
+Trautmann 1997
 Watson 1987
 Weatherall 2011
 Weinrich 1993
 Welke 1965
+Wiesmann 1997
 Willkop 1988
 K10
 Ackermann 2014
 Amorocho 2015
-Amorocho 2018
+Amorocho 2018a
 Benner 2012
 Bremen 2005
 Buttlar 2017
 Ernst 2017
 Fiehler 2017
+Fiehler 2017, 2012, 2002, 2001
 Garfinkel 1967
 Heller 2015
+Hundenborn 2007
 Kern Quasthoff 2003
 Kotthoff 2012
 Kotthoff 2017
+Kotthoff 2017, 2012
+Lepschy 1995
 Meer 1998
-Mehan 1979
+Mehlhorn 2005
 Mundwiler 2017
 Niederhaus 2011
 Ohlhus 2017
@@ -915,26 +978,27 @@ Sport 2006
 Stukenbrock 2013
 Wegner 2016
 K11
-Abraham Saxalber 2017
-Amorocho 2017
+Abraham Saxalber 2016
 Amorocho 2018b
+Budke 2013
 Buts 2017
-Ehlich 2009
+Ebke 2014
+Eibinger 2013
 Fandrych Thurmair 2012a
 Fiehler Schmitt 2004
 Finck 2012
+Fischer 2017
 Gibbons 2002
 Grigorieva 2015
-Grundler 2011
 Hausendorf Quasthoff 1996
 Johnson 2001
+Kiefer 2018
 Kniffka Neuer 2008
 Kotthoff 2012
 Meer 1998
 Morek Heller 2012
 Rahn 2014
 Reimann 2005
-Schulte 2006
 Schulte Wagner 2006
+Settelmeier Widera 2015
 Wermbter 2012
-/Users/jamoroch/user/github/gramata/src/bash/references
