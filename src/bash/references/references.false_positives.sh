@@ -2,7 +2,7 @@
 set -e -u
 cd "$( dirname "S{BASH_SOURCE[0]}" )"
 
-REFERENCES='../../../resources/references.raw.txt'
+REFERENCES='../../../resources/references.sorted.txt'
 BLACKLIST='../../../resources/references.blacklist.txt'
 BIBLIOGRAPHY='../../../resources/lit_id.txt'
 

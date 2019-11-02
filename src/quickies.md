@@ -20,6 +20,9 @@ LEN=$(echo `expr "$FOO" : '[A-Z][a-z]*'`)
 LASTNAME=$(echo ${FOO:0:LEN})
 YEAR=$(echo ${FOO:LEN})
 
+
+cat ../../../resources/references.raw.txt | awk -F, '{if (NF == 1) {print $0} else {split($1, a, " "); print a[1],a[2];{for (i = 2; i <= NF; i++) print a[1] $i}  }}' | sort | uniq
+
 comm -23 references.sorted.txt references.false_positives.txt  | egrep -v 'K[0-9]+' > references.true_positives.txt
 
-cat resources/references.raw.txt | sed -n '/K11/,/$/p' | grep --word-regexp -file resources/references.true_positives.txt
+cat resources/references.raw.txt | sed -n '/K11/,/$/p' | grep --word-regexp --file resources/references.true_positives.txt
