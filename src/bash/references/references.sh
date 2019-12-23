@@ -16,7 +16,7 @@ for i in $(seq 1 11); do
     exit 1; 
   fi
   echo ${FILE%.txt}
-  cat $FILE | egrep -o '([A-Z]\w+\/\s?)?[A-Z]\w+ \(?\d{4}[a-z]*(, \d{4}[a-z]*)*' | sed -e 's/(//g' -e 's#/# #g' | sort | uniq
+  cat $FILE | egrep -o '([A-Z]\w+\/\s?)?[A-Z]\w+\s?(et al.)? \(?\d{4}[a-z]*(, \d{4}[a-z]*)*' | sed -e 's/et al\.//g' -e 's/(//g' -e 's#/# #g' | sort | uniq
   done
 
   cd -
