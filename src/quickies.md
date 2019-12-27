@@ -28,3 +28,5 @@ comm -23 references.sorted.txt references.false_positives.txt  | egrep -v 'K[0-9
 cat resources/references.raw.txt | sed -n '/K1/,/K2/p' | grep --word-regexp --file resources/references.true_positives.txt
 
 cat resources/references.raw.txt | sed -n '/K11/,/$/p' | grep --word-regexp --file resources/references.true_positives.txt
+
+sed -i  -e 's/\[.*\]//g' -e 's/\[.*)//g' -e 's/\s\{2,\}/ /g' -e 's/^[a-z]$//g' -e 's/g$//' -e '/^$/d' resources/reverse_references.txt
