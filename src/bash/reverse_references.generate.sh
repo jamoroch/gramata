@@ -18,6 +18,11 @@ if [[ ! -f $GREP_CMD ]]; then
   exit 1;
 fi
 
+if [[ ! -f $SED_CMD ]]; then
+  echo "$SED_CMD not found!"
+  exit 1;
+fi
+
 while IFS= read -r  ; do
    LIT_ID=$(echo $REPLY| cut -d: -f1)
 
@@ -38,7 +43,6 @@ while IFS= read -r  ; do
   YEAR=$(echo $RAW_YEAR | $GREP_CMD -Po $RE || echo 'o.J.')
   AB_PUBLICATION=$(echo $LIT_ID | $GREP_CMD -o '(.*)' | $GREP_CMD -o '[a-z]' || echo '' )
 
-#  echo "$AUTHOR ($YEAR$AB_PUBLICATION)"
   echo "$AUTHOR $YEAR$AB_PUBLICATION"
 
 done < $DATA_FILENAME
