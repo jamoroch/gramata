@@ -1,13 +1,3 @@
-Deppermann Schmidt 2008
-Fandrych Thurmair 2012a
-Goffmans 1959
-Grigorieva 2015
-Hanna 2002
-Holy 1979
-Roth 1944
-Sacks 1984
-Settelmeier Widera 2015
-Siltonen 2009
-Spreckels Trojahn 2009
-Trautmann 1997
-Wohlrapp 2009
+Auer 2002b
+Harras 2004
+KLDB 2010
