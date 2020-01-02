@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e -u
+set -o errexit -o nounset
 KALL='../../resources/original/Kall.pdf'
 WORD_OCURRENCE_FILENAME='../../resources/word_ocurrence.in.sorted.txt'
 WO_KEYS_FILENAME='../../resources/word_ocurrence.out.keys.txt'

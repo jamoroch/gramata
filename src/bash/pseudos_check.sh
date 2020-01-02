@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e -u
+set -o errexit -o nounset
 cd "$( dirname "S{BASH_SOURCE[0]}" )"
 
 TYPE=${1:-real}

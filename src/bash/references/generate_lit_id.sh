@@ -1,5 +1,5 @@
 #! /usr/bin/env bash
-set -e -u
+set -o errexit -o nounset
 OUTPUT_DIR=../../../resources/
 OUTPUT_FILENAME=${1:-lit_id.txt}
 OUTPUT_FILE=$OUTPUT_DIR$OUTPUT_FILENAME
